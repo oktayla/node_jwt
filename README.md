@@ -15,4 +15,8 @@ Install Dependencies
 npm i
 ```
 
+Then
+```bash
+npm start
+```
 
