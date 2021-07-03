@@ -23,8 +23,8 @@ app.get('/profile', verifyToken, (req, res) => {
 app.post('/login', (req, res) => {
     const user = {
         id: 1,
-        username: 'jr_satoshi',
-        email: 'satoshi@nakamoto.com'
+        username: 'oktay',
+        email: 'info@email.com'
     }
 
     jwt.sign({user}, 'MY_SECRET_KEY', (err, token) => {
